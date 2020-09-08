@@ -1,7 +1,7 @@
 # Solen SPA
 
 > This project represents the « front end » of [Solen LMS](https://github.solenlms.com) solution. 
-It's built with `Angular` along with `Angular Matrial`. Demo at [https://demo.solenlms.com](https://demo.solenlms.com/).
+It's built with `Angular` along with `Angular Material`. Demo at [https://demo.solenlms.com](https://demo.solenlms.com/).
  
 
 # Table of Contents
