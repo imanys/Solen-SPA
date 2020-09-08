@@ -1,0 +1,47 @@
+mat-card {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  color: black;
+}
+
+mat-card:hover {
+  box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  display: block;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 3px;
+  font-weight: 600;
+  color: black;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.subtitle {
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.info {
+  margin-bottom: 5px;
+  color: black;
+}
+
+.label {
+  padding-bottom: 8px;
+  color: #686f7a;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.learn {
+  margin-top: 12px;
+}

@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  &.border {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+a:hover,
+a:active {
+  color: lightgray;
+}
+
+.mat-toolbar-row-top {
+  height: 70px;
+  background-color: #323436;
+}
+
+
+img {
+  margin-top: 8px;
+}
+
+.navigation-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+li {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+

@@ -1,0 +1,27 @@
+mat-card {
+  padding-top: Opx;
+}
+
+table {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 1000px;
+
+}
+
+th.mat-header-cell {
+  text-align: left;
+  max-width: 300px;
+}
+
+td {
+  cursor: pointer;
+}
+
+.mat-row:hover {
+  background-color: #777;
+  .mat-cell {
+    color: white;
+  }
+}

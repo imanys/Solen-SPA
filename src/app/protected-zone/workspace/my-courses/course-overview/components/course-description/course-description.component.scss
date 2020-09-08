@@ -1,0 +1,21 @@
+.card {
+  width: 100%;
+  padding-left: 10px;
+  margin-bottom: 14px;
+}
+
+.title {
+  display: block;
+  font-size: 19px;
+  line-height: 30px;
+  margin-bottom: 14px;
+  font-weight: 600;
+  padding-left: 10px;
+  cursor: pointer;
+  border-left: 4px solid;
+}
+
+.content {
+  overflow: hidden;
+}
+

@@ -1,0 +1,16 @@
+mat-list {
+  width: 70%;
+}
+
+mat-form-field {
+  width: 65%;
+}
+
+.mat-subheader {
+  padding: 0;
+}
+
+::ng-deep .mat-line {
+  word-wrap: break-word !important;
+  white-space: pre-wrap !important;
+}

@@ -1,0 +1,23 @@
+section {
+  height: 100%;
+}
+
+mat-card {
+  margin-top: 10%;
+  width: 450px;
+  height: 350px;
+}
+
+mat-form-field {
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover,
+a:active {
+  color: lightgray;
+}

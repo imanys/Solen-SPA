@@ -1,0 +1,38 @@
+mat-card {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+mat-card:hover {
+  box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  display: block;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 3px;
+  font-weight: 600;
+}
+.title:hover {
+  text-decoration: underline;
+}
+
+.subtitle {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.info {
+  margin-bottom: 5px;
+}
+
+.label {
+  padding-bottom: 8px;
+  color: #686f7a;
+}
+
+a {
+  text-decoration: none;
+}

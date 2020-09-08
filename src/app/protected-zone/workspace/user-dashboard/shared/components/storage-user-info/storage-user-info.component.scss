@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+}
+mat-card {
+  width: 350px;
+}
+
+mat-card:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  text-align: center;
+  margin: 0;
+}
+.title {
+  display: inline-block;
+  margin: 0;
+  padding: 5px;
+  color: black;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.data-info {
+  margin: 15px 0;
+}

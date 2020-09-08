@@ -1,0 +1,148 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.active-link {
+  color: grey;
+  font-style: oblique;
+}
+
+.red-snackbar {
+  background: #b00020;
+  color: white;
+  white-space: pre-wrap;
+}
+
+.app-icon {
+  font-size: 20px !important;
+  margin-right: 5px !important;
+  vertical-align: middle !important;
+}
+
+.pb-1 {
+  padding-bottom: 1px !important;
+}
+
+mat-expansion-panel {
+  width: 100%;
+  border-radius: 0px !important;
+}
+
+
+mat-expansion-panel-header {
+  background-color: #777 !important;
+  padding: 0 2px !important;
+  height: 50px !important;
+}
+
+.mat-expansion-panel-header-title {
+  color: white !important;;
+}
+
+app-expansion-panel .mat-expansion-panel-body {
+  padding: 0 0px !important;
+}
+
+app-expansion-panel .mat-list-item-content {
+  padding: 0px 5px !important;
+}
+
+app-expansion-panel form {
+  padding: 10px 10px !important;
+}
+
+app-expansion-panel mat-form-field {
+  width: 100% !important;
+}
+
+app-expansion-panel mat-action-row {
+  padding: 0 !important;
+}
+
+app-expansion-panel .errors {
+  border: 1px solid red !important;
+}
+
+
+app-module-expansion-panel .mat-expansion-panel-body {
+  padding: 0 0px !important;
+}
+
+app-module-expansion-panel .mat-list-item-content {
+  padding: 0px 5px !important;
+}
+
+app-module-expansion-panel .mat-expansion-panel {
+  display: inline !important;
+}
+
+
+.mat-list-base {
+  padding-top: 0px !important;
+}
+
+.mat-list-item-disabled {
+  background-color: transparent;
+}
+
+.mat-raised-button.mat-primary {
+  // background-color: #24292e;
+  background-color: #323436;
+}
+
+.mat-mini-fab.mat-primary {
+  background-color: #323436;
+}
+
+
+.mat-progress-spinner circle, .mat-spinner circle {
+  stroke: #24292e;
+}
+
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #323436;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar {
+  background-color: #323436;
+}
+
+mat-card-subtitle {
+  font-size: 20px !important;
+}
+
+.subtitle {
+  font-size: 18px;
+}
+
+.control-group label {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 4px;
+}
+
+.mat-input-element:disabled {
+  color: rgba(0, 0, 0, 1);
+}
+
+.mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: #323436;
+}
+
+
+.mat-flat-button.mat-primary {
+  background-color: #323436;
+}
