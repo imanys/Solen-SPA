@@ -49,7 +49,7 @@ import {FormBuilder, Validators} from '@angular/forms';
 })
 export class CourseCreateDialogComponent {
   title: string;
-  titleMaxlength: number;
+  titleMaxlength = 0;
 
   create = new EventEmitter<any>();
 
