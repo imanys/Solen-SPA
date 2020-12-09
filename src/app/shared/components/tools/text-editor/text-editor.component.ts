@@ -19,7 +19,7 @@ import { AngularEditorConfig } from '@kolkov/angular-editor';
 export class TextEditorComponent {
   @Input() parent: FormGroup;
   @Input() controlName: string;
-  @Input() placeholder;
+  @Input() placeholder = '';
 
   editorConfig: AngularEditorConfig = {
     editable: true,
